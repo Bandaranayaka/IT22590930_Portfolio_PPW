@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thilakshana Bandaranayaka</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=DM+Mono:wght@300;400;500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="progress" id="progress"></div>
+
+  <!-- Dot nav -->
+  <aside class="dotnav" id="dotnav">
+    <a href="#cover"   class="dn active" data-l="Cover"></a>
+    <a href="#intro"   class="dn" data-l="Introduction"></a>
+    <a href="#journal" class="dn" data-l="Reflective Journal"></a>
+    <a href="#career"  class="dn" data-l="Career Plan"></a>
+    <a href="#cv"      class="dn" data-l="Curriculum Vitae"></a>
+    <a href="#cert"    class="dn" data-l="Certificate"></a>
+  </aside>
+
+  <!-- ════════════════════════════════
+       COVER
+  ════════════════════════════════ -->
+  <section id="cover" class="cover">
+
+    <!-- Animated grid bg -->
+    <div class="cover-grid"></div>
+    <!-- Glow blobs -->
+    <div class="blob blob-a"></div>
+    <div class="blob blob-b"></div>
+
+    <div class="cover-inner">
+      <div class="cover-left">
+
+        <div class="tag-row">
+          <span class="mono-tag">Digital Innovator in the Making</span>
+          <!-- <span class="mono-tag">Preparation for Professional World</span> -->
+          <span class="mono-tag">IT22590930</span>
+        </div>
+
+        <h1 class="cover-name">
+          <span class="cn-line a1">Thilakshana</span>
+          <span class="cn-line a2"><em>Bandaranayake</em></span>
+        </h1>
+
+        <p class="cover-desc a3">Final Year · BSc (Hons) Information Technology<br>Full-Stack Developer · SLIIT</p>
+
+        <div class="cover-links a4">
+          <a class="clink" href="mailto:thilakshanabandaranayake@gmail.com">
+            <i data-lucide="mail"></i>
+            <span>thilakshanabandaranayake@gmail.com</span>
+          </a>
+          <span class="clink">
+            <i data-lucide="map-pin"></i>
+            <span>Kurunagala, Sri Lanka</span>
+          </span>
+          <a class="clink" href="#">
+            <i data-lucide="linkedin"></i>
+            <span>in/thilakshana-bandaranayaka</span>
+          </a>
+        </div>
+
+        <!-- Index strip -->
+        <div class="index-strip a5">
+          <a href="#intro"   class="is-link"><span class="is-n">01</span><span>Introduction</span></a>
+          <div class="is-sep"></div>
+          <a href="#journal" class="is-link"><span class="is-n">02</span><span>Reflective Journal</span></a>
+          <div class="is-sep"></div>
+          <a href="#career"  class="is-link"><span class="is-n">03</span><span>Career Plan</span></a>
+          <div class="is-sep"></div>
+          <a href="#cv"      class="is-link"><span class="is-n">04</span><span>Curriculum Vitae</span></a>
+          <div class="is-sep"></div>
+          <a href="#cert"    class="is-link"><span class="is-n">05</span><span>Certificate</span></a>
+        </div>
+
+      </div>
+
+      <!-- Right panel: geometric code-art graphic -->
+      <div class="cover-right a3">
+        <div class="cg-wrap">
+
+          <!-- Top: animated code block -->
+          <div class="cg-code">
+            <div class="cg-code-bar">
+              <span class="cg-dot red"></span>
+              <span class="cg-dot yellow"></span>
+              <span class="cg-dot green"></span>
+              <span class="cg-fname">thilakshana.ts</span>
+            </div>
+            <div class="cg-lines">
+              <div class="cg-line"><span class="cg-ln">01</span><span class="ck-kw">const</span> <span class="ck-var">developer</span> <span class="ck-op">=</span> <span class="ck-str">{</span></div>
+              <div class="cg-line"><span class="cg-ln">02</span>  <span class="ck-key">name</span><span class="ck-op">:</span> <span class="ck-str">"Thilakshana"</span><span class="ck-op">,</span></div>
+              <div class="cg-line"><span class="cg-ln">03</span>  <span class="ck-key">stack</span><span class="ck-op">:</span> <span class="ck-str">["Flutter","Node.js","Azure"]</span><span class="ck-op">,</span></div>
+              <!-- <div class="cg-line"><span class="cg-ln">04</span>  <span class="ck-key">gpa</span><span class="ck-op">:</span> <span class="ck-num">3.09</span><span class="ck-op">,</span></div> -->
+              <div class="cg-line"><span class="cg-ln">05</span>  <span class="ck-key">background</span><span class="ck-op">:</span> <span class="ck-str">["Tech","Sales","Leadership"]</span></div>
+              <div class="cg-line"><span class="cg-ln">06</span><span class="ck-str">}</span><span class="ck-op">;</span></div>
+              <div class="cg-line cg-cursor-line"><span class="cg-ln">07</span><span class="cg-caret"></span></div>
+            </div>
+          </div>
+
+          <!-- Bottom: abstract hex/grid art -->
+          <div class="cg-art">
+            <svg class="cg-svg" viewBox="0 0 360 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Background grid lines -->
+              <line x1="0" y1="40"  x2="360" y2="40"  stroke="rgba(0,212,255,0.05)" stroke-width="1"/>
+              <line x1="0" y1="80"  x2="360" y2="80"  stroke="rgba(0,212,255,0.05)" stroke-width="1"/>
+              <line x1="0" y1="120" x2="360" y2="120" stroke="rgba(0,212,255,0.05)" stroke-width="1"/>
+              <line x1="0" y1="160" x2="360" y2="160" stroke="rgba(0,212,255,0.05)" stroke-width="1"/>
+              <line x1="60"  y1="0" x2="60"  y2="200" stroke="rgba(0,212,255,0.05)" stroke-width="1"/>
+              <line x1="120" y1="0" x2="120" y2="200" stroke="rgba(0,212,255,0.05)" stroke-width="1"/>
+              <line x1="180" y1="0" x2="180" y2="200" stroke="rgba(0,212,255,0.05)" stroke-width="1"/>
+              <line x1="240" y1="0" x2="240" y2="200" stroke="rgba(0,212,255,0.05)" stroke-width="1"/>
+              <line x1="300" y1="0" x2="300" y2="200" stroke="rgba(0,212,255,0.05)" stroke-width="1"/>
+
+              <!-- Circuit paths -->
+              <path class="cg-circuit a" d="M 30 100 L 80 100 L 80 50 L 160 50" stroke="rgba(59,110,234,0.4)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <path class="cg-circuit b" d="M 30 140 L 100 140 L 100 170 L 200 170" stroke="rgba(0,212,255,0.3)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <path class="cg-circuit c" d="M 200 50 L 280 50 L 280 100 L 340 100" stroke="rgba(59,110,234,0.35)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <path class="cg-circuit d" d="M 200 170 L 260 170 L 260 130 L 340 130" stroke="rgba(0,212,255,0.25)" stroke-width="1" fill="none" stroke-linecap="round"/>
+
+              <!-- Junction dots on circuit -->
+              <circle cx="80"  cy="100" r="3" fill="rgba(59,110,234,0.7)"/>
+              <circle cx="80"  cy="50"  r="3" fill="rgba(0,212,255,0.6)"/>
+              <circle cx="100" cy="140" r="3" fill="rgba(0,212,255,0.5)"/>
+              <circle cx="280" cy="50"  r="3" fill="rgba(59,110,234,0.6)"/>
+              <circle cx="260" cy="170" r="3" fill="rgba(0,212,255,0.4)"/>
+
+              <!-- Glowing nodes -->
+              <circle cx="160" cy="50"  r="6" fill="rgba(59,110,234,0.15)" stroke="#3B6EEA" stroke-width="1.5"/>
+              <circle cx="160" cy="50"  r="2.5" fill="#3B6EEA"/>
+              <circle cx="200" cy="170" r="6" fill="rgba(0,212,255,0.12)" stroke="#00D4FF" stroke-width="1.5"/>
+              <circle cx="200" cy="170" r="2.5" fill="#00D4FF"/>
+              <circle cx="280" cy="100" r="6" fill="rgba(59,110,234,0.12)" stroke="#3B6EEA" stroke-width="1.5"/>
+              <circle cx="280" cy="100" r="2.5" fill="#3B6EEA"/>
+
+              <!-- Central hexagon -->
+              <polygon class="cg-hex" points="190,85 210,74 230,85 230,107 210,118 190,107"
+                stroke="rgba(0,212,255,0.35)" stroke-width="1.5" fill="rgba(0,212,255,0.04)"/>
+              <polygon points="194,88 210,79 226,88 226,104 210,113 194,104"
+                stroke="rgba(59,110,234,0.2)" stroke-width="1" fill="rgba(59,110,234,0.05)"/>
+              <circle cx="210" cy="96" r="3" fill="#00D4FF" opacity="0.8"/>
+
+              <!-- Scan line animation -->
+              <line class="cg-scan" x1="0" y1="0" x2="360" y2="0" stroke="rgba(0,212,255,0.15)" stroke-width="1.5"/>
+
+              <!-- Corner brackets -->
+              <path d="M 8 16 L 8 8 L 16 8"   stroke="rgba(0,212,255,0.4)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <path d="M 344 8 L 352 8 L 352 16" stroke="rgba(0,212,255,0.4)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <path d="M 8 184 L 8 192 L 16 192" stroke="rgba(0,212,255,0.4)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <path d="M 344 192 L 352 192 L 352 184" stroke="rgba(0,212,255,0.4)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            </svg>
+
+            <!-- Overlay mono labels -->
+            <div class="cg-label-tl">full_stack_dev</div>
+            <div class="cg-label-br">SLIIT · 2026</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="cover-scroll"><i data-lucide="arrow-down"></i> scroll</div>
+  </section>
+
+  <!-- ════════════════════════════════
+       01 INTRODUCTION
+  ════════════════════════════════ -->
+  <section id="intro" class="sec">
+    <div class="sec-wrap">
+
+      <header class="sec-hd">
+        <span class="sec-num">01</span>
+        <h2 class="sec-title">Introduction</h2>
+        <div class="sec-rule"></div>
+      </header>
+
+      <div class="intro-split">
+        <div class="intro-l">
+          <!-- PHOTO: replace div below with: -->
+          <img src="assets/photo.jpeg" alt="Thilakshana" class="intro-photo"/>  
+          
+
+          <div class="intro-chips">
+            <div class="ich"><i data-lucide="smartphone"></i>Mobile Developer</div>
+            <div class="ich"><i data-lucide="server"></i>Backend Engineer</div>
+            <div class="ich"><i data-lucide="trending-up"></i>Sales Background</div>
+            <div class="ich"><i data-lucide="shield-check"></i>Cybersecurity Trainer</div>
+          </div>
+        </div>
+
+        <div class="intro-r">
+          <h3 class="intro-hello">Hello, I'm<br><em>Thilakshana.</em></h3>
+
+          <p class="ip">I'm a final-year Information Technology student at SLIIT with a background that spans two worlds, technology and business. Before I wrote a line of code professionally, I was out in the field running sales campaigns, training teams and building client relationships. That foundation gives me something most engineers don't have. I understand people as well as I understand systems.</p>
+
+          <p class="ip">During my internship at CEAT Kelani Holdings, I built full-stack mobile applications using Flutter, Node.js and MySQL, deployed on Azure and led cybersecurity training programmes for non-technical staff across the organization. I don't just build software. I communicate its value to the people who use it.</p>
+
+          <div class="intro-mission">
+            <i data-lucide="compass"></i>
+            <p><strong>Goal -</strong> Bring together technical depth and real-world communication skills to become a software engineer who builds solutions people understand and trust.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       02 REFLECTIVE JOURNAL
+  ════════════════════════════════ -->
+  <section id="journal" class="sec sec-alt">
+    <div class="sec-wrap">
+
+      <header class="sec-hd">
+        <span class="sec-num">02</span>
+        <h2 class="sec-title">Reflective Journal</h2>
+        <div class="sec-rule"></div>
+      </header>
+
+      <!-- Week pills -->
+      <div class="week-bar">
+        <button class="wpill active" data-w="1">Week 01</button>
+        <button class="wpill" data-w="2">Week 02</button>
+        <button class="wpill" data-w="3">Week 03</button>
+        <button class="wpill" data-w="4">Week 04</button>
+        <button class="wpill" data-w="5">Week 05</button>
+        <button class="wpill" data-w="6">Week 06</button>
+        <button class="wpill" data-w="7">Week 07</button>
+      </div>
+
+      <div class="jnl-area">
+
+        <div class="jp active" data-w="1">
+          <div class="jp-hd">
+            <span class="jp-wn">01</span>
+            <div><h3 class="jp-title">Introduction to the PPW Module</h3><p class="jp-sub"><i data-lucide="layers"></i> Module structure · Assessments · Expectations</p></div>
+          </div>
+          <div class="gibbs">
+            <div class="gb"><div class="gb-label"><i data-lucide="file-text"></i>Description</div><p>The first session was an overview of the entire PPW module including what it covers, how it is assessed and what we are expected to gain from it. We found out the module has no written exam and is fully assessed through a quiz (20%), a portfolio (50%) and a mock interview (30%).</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="activity"></i>Feelings</div><p>I came in thinking this would be an easy, relaxed module. By the end of the session, the portfolio and interview requirements made me sit up straight realizing that this was going to take real effort.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="scale"></i>Evaluation</div><p>The introduction was helpful because it removed all uncertainty about what we needed to do. What stood out negatively was how unprepared I felt thinking about building a portfolio from scratch.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="search"></i>Analysis</div><p>The assessments being all performance-based reflects what employers actually want. They care how you present yourself, not just what you can memorize.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="check-circle-2"></i>Conclusion</div><p>PPW is not a background module. It is directly linked to how ready I am for the working world.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="clipboard-list"></i>Action Plan</div><p>I made a note to stay on top of every session and not let the portfolio pile up. Starting early was the one decision I knew I had to make right away.</p></div>
+          </div>
+        </div>
+
+        <div class="jp" data-w="2">
+          <div class="jp-hd">
+            <span class="jp-wn">02</span>
+            <div><h3 class="jp-title">Presentation Skills</h3><p class="jp-sub"><i data-lucide="monitor"></i> Structure · Signposting · Body language · Slide design</p></div>
+          </div>
+          <div class="gibbs">
+            <div class="gb"><div class="gb-label"><i data-lucide="file-text"></i>Description</div><p>We learned how to plan and deliver a well-structured presentation. The session covered the three-part structure, signposting phrases, proper slide design and how to use body language, covering eye contact, voice, posture, expression and appearance.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="activity"></i>Feelings</div><p>I actually enjoy presenting, so this session was fun for me. But I realised I had been picking up bad habits, including too many words on slides and not enough pausing to let points land.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="scale"></i>Evaluation</div><p>Signposting phrases were the highlight. Having ready-made transitions makes a presentation flow smoothly and gives the speaker real confidence. I had been breaking most slide design rules without knowing.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="search"></i>Analysis</div><p>Good presentations are not about talent. They are about structure and preparation. My past presentations that went well were the ones I had rehearsed and the bad ones were the ones I had not.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="check-circle-2"></i>Conclusion</div><p>The audience remembers the ending most. A weak conclusion undoes a good presentation, so it needs the same care as the opening.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="clipboard-list"></i>Action Plan</div><p>I will always write a conclusion slide and rehearse it separately. I will cut my slides down to key words only and time myself during practice runs.</p></div>
+          </div>
+        </div>
+
+        <div class="jp" data-w="3">
+          <div class="jp-hd">
+            <span class="jp-wn">03</span>
+            <div><h3 class="jp-title">Business Writing &amp; Formal Letter Writing</h3><p class="jp-sub"><i data-lucide="pen-line"></i> Formal vocabulary · Letter format · Conciseness</p></div>
+          </div>
+          <div class="gibbs">
+            <div class="gb"><div class="gb-label"><i data-lucide="file-text"></i>Description</div><p>The session introduced professional business writing and formal letters, including the use of formal vocabulary, avoiding contractions, writing concisely and structuring letters such as complaints, apologies, invitations and job applications correctly.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="activity"></i>Feelings</div><p>I found this more interesting than expected. Seeing how small word choices, like 'obtain' versus 'get', completely change the feel of a sentence was genuinely eye-opening.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="scale"></i>Evaluation</div><p>The hands-on rewriting activity was the best part. It forced me to think critically about language rather than just reading theory. The formal letter formats were straightforward once the structure was laid out clearly.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="search"></i>Analysis</div><p>Most of my written communication had been casual, mainly consisting of texts, social media, informal emails. Realizing that professional writing requires a completely different mindset was an important shift.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="check-circle-2"></i>Conclusion</div><p>Business writing is really about the reader, keeping it clear, respectful and purposeful. There is no room for filler words or vague language in a professional setting.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="clipboard-list"></i>Action Plan</div><p>I will proofread every professional email using a simple checklist, ensuring a formal tone, clear purpose and a polite closing before hitting send.</p></div>
+          </div>
+        </div>
+
+        <div class="jp" data-w="4">
+          <div class="jp-hd">
+            <span class="jp-wn">04</span>
+            <div><h3 class="jp-title">Email Writing &amp; Memo Writing</h3><p class="jp-sub"><i data-lucide="mail"></i> Netiquette · Email structure · TO/FROM/DATE/SUBJECT</p></div>
+          </div>
+          <div class="gibbs">
+            <div class="gb"><div class="gb-label"><i data-lucide="file-text"></i>Description</div><p>We went deeper into professional communication. Formal email structure including subject lines, openings, body phrases, closings and internal memo writing using the TO/FROM/DATE/SUBJECT format.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="activity"></i>Feelings</div><p>This session hit close to home because I use email constantly. Realizing I had been writing sloppy professional emails with missing subject lines, casual greetings was uncomfortable but very motivating to fix.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="scale"></i>Evaluation</div><p>The practical email phrases were the most useful takeaway. A bank of professional openers and closers removes the awkwardness of staring at a blank email. Memo writing was new and the format is refreshingly efficient.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="search"></i>Analysis</div><p>Emails create a written record of everything you say. Every email is essentially a professional document. I had not been treating them that way, which could have caused real problems in a workplace.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="check-circle-2"></i>Conclusion</div><p>Netiquette, including prompt replies, clear subject lines and a professional tone, is the foundation of being taken seriously in any professional environment.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="clipboard-list"></i>Action Plan</div><p>I will set up a proper email signature immediately and make it a habit to write a specific subject line before I write anything else in an email.</p></div>
+          </div>
+        </div>
+
+        <div class="jp" data-w="5">
+          <div class="jp-hd">
+            <span class="jp-wn">05</span>
+            <div><h3 class="jp-title">Telephone Etiquette</h3><p class="jp-sub"><i data-lucide="phone-call"></i> Introduction · Purpose · Conclusion · Tone of voice</p></div>
+          </div>
+          <div class="gibbs">
+            <div class="gb"><div class="gb-label"><i data-lucide="file-text"></i>Description</div><p>The session focused on professional telephone communication. The three-part structure of a business call (introduction, purpose, conclusion), tone of voice, clarity, active listening and handling common situations like transferring calls or taking messages.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="activity"></i>Feelings</div><p>I had never thought of phone skills as something requiring formal training. But when I honestly assessed my own phone manner, I realised I speak too fast and don't always sound confident enough.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="scale"></i>Evaluation</div><p>Learning that tone of voice carries the entire burden of communication on a phone call, since body language is invisible, was the most valuable point. The do's and don'ts were practical and immediately usable.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="search"></i>Analysis</div><p>A single unprofessional phone call can affect an organisation's reputation. It is not about being formal for formality's sake. It is about building trust consistently.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="check-circle-2"></i>Conclusion</div><p>A professional phone call needs the same intention as a written document. Being clear, calm and helpful over the phone is a skill worth deliberately practising.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="clipboard-list"></i>Action Plan</div><p>I will work on slowing down my speaking pace and using a warmer, more energised tone. I will also practise a standard opening line so I always sound confident from the first word.</p></div>
+          </div>
+        </div>
+
+        <div class="jp" data-w="6">
+          <div class="jp-hd">
+            <span class="jp-wn">06</span>
+            <div><h3 class="jp-title">Report Writing</h3><p class="jp-sub"><i data-lucide="file-bar-chart"></i> Information · Research · Proposal · Groan Factor</p></div>
+          </div>
+          <div class="gibbs">
+            <div class="gb"><div class="gb-label"><i data-lucide="file-text"></i>Description</div><p>We covered the purpose, structure and types of professional reports, including information, research and proposal, walking through key components like the executive summary, introduction, body sections and bibliography, plus the 'GROAN FACTOR' concept.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="activity"></i>Feelings</div><p>Report writing has always felt heavy and dull to me, but this session genuinely changed that. Thinking of a report as something designed to serve the reader, not just tick a box, made it feel more meaningful.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="scale"></i>Evaluation</div><p>The 'It is all about the reader' mindset was a game changer. The advice to write the executive summary last but place it first was something I had never heard before and makes complete logical sense.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="search"></i>Analysis</div><p>I had been writing reports by dumping everything I know onto the page. That approach ignores the reader entirely, which explains why my reports sometimes felt unfocused and too long.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="check-circle-2"></i>Conclusion</div><p>Always define your purpose and audience before writing a single word. A short, well-structured report will always outperform a long, disorganised one.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="clipboard-list"></i>Action Plan</div><p>For my next report, I will plan the structure first, write the body and only then write the executive summary. I will also get someone to review the flow before I submit.</p></div>
+          </div>
+        </div>
+
+        <div class="jp" data-w="7">
+          <div class="jp-hd">
+            <span class="jp-wn">07</span>
+            <div><h3 class="jp-title">How to Face an Interview</h3><p class="jp-sub"><i data-lucide="briefcase"></i> Interview types · STAR method · Non-verbal communication</p></div>
+          </div>
+          <div class="gibbs">
+            <div class="gb"><div class="gb-label"><i data-lucide="file-text"></i>Description</div><p>The final session covered different interview types including in-person, panel, behavioural, technical, case study and virtual, along with what employers look for, non-verbal communication skills and how to answer common questions effectively. We ended with a mock interview.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="activity"></i>Feelings</div><p>I feel fairly comfortable in interviews compared to most people, but this session still taught me things I did not know. I was particularly surprised by how much non-verbal communication affects the interviewer's impression.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="scale"></i>Evaluation</div><p>The STAR method for answering behavioural questions was the standout takeaway. It gives a clear, logical framework that prevents rambling and keeps answers focused. The mock interview was a great reality check.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="search"></i>Analysis</div><p>I used to think interviews were about having the right answers. Now I understand they are about showing the right fit for the role, the team and the organisation's culture. That shift makes preparation feel far more purposeful.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="check-circle-2"></i>Conclusion</div><p>Every part of an interview can be prepared for in advance including your answers, your body language, even the questions you ask the interviewer. Nothing needs to be left to chance.</p></div>
+            <div class="gb"><div class="gb-label"><i data-lucide="clipboard-list"></i>Action Plan</div><p>I will prepare STAR-format answers for the ten most common interview questions and practise them out loud. I will also prepare two thoughtful questions to ask at the end of every interview.</p></div>
+          </div>
+        </div>
+
+      </div><!-- /jnl-area -->
+
+      <!-- Overall reflection -->
+      <div class="reflection">
+        <div class="refl-bar"></div>
+        <div class="refl-body">
+          <h4 class="refl-head">Overall Reflection</h4>
+          <p>Seven sessions in and PPW genuinely surprised me. I came in expecting the easiest module of the semester. I'm leaving it with a clearer sense of how to carry myself professionally in writing, in conversation and in person.</p>
+          <p class="refl-strong">Technical skills get you to the interview room. Communication skills are what get you the job. PPW gave me the tools to make sure my skills are actually seen and I plan to keep using them long after this module ends.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       03 CAREER DEVELOPMENT PLAN
+  ════════════════════════════════ -->
+  <section id="career" class="sec">
+    <div class="sec-wrap">
+
+      <header class="sec-hd">
+        <span class="sec-num">03</span>
+        <h2 class="sec-title">Career Development Plan</h2>
+        <div class="sec-rule"></div>
+      </header>
+
+      <p class="sec-lead">From where I am now to where I am meant to become.</p>
+
+      <!-- Timeline -->
+      <div class="tl">
+        <div class="tl-track"></div>
+
+        <div class="tl-item">
+          <div class="tl-dot dot-now"><i data-lucide="flag-triangle-right"></i></div>
+          <div class="tl-content">
+            <div class="tl-meta"><span class="tl-when now-col">Now · 2026</span></div>
+            <h4>Graduation</h4>
+            <p>Complete my final semester at SLIIT and graduate with my BSc (Hons) in Information Technology. Currently maintaining a GPA of 3.09, with focused effort across my final-year projects and assessments.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot dot-s"><i data-lucide="briefcase"></i></div>
+          <div class="tl-content">
+            <div class="tl-meta"><span class="tl-when s-col">6 months</span></div>
+            <h4>Secure a Software Engineering Role</h4>
+            <p>Apply to full-stack and mobile development positions, leveraging my internship experience and project portfolio. Target employment within six months of graduation with a focus on Flutter and Node.js roles.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot dot-m"><i data-lucide="smartphone"></i></div>
+          <div class="tl-content">
+            <div class="tl-meta"><span class="tl-when m-col">1 year</span></div>
+            <h4>Deepen Mobile Development Expertise</h4>
+            <p>Advance my Flutter and cross-platform mobile skills beyond the internship foundation. Publish at least one personal project to app stores to build a public-facing technical portfolio.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot dot-m"><i data-lucide="cloud"></i></div>
+          <div class="tl-content">
+            <div class="tl-meta"><span class="tl-when m-col">2 years</span></div>
+            <h4>Deepen Cloud Expertise in Production Environments</h4>
+            <p>Having already completed AWS and Azure certifications during my studies, the focus over the next two years is to apply this knowledge in real-world production settings and growing into a more senior cloud engineering role within a professional setting.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot dot-l"><i data-lucide="star"></i></div>
+          <div class="tl-content">
+            <div class="tl-meta"><span class="tl-when l-col">5 years</span></div>
+            <h4>Senior Engineer / Technical Lead</h4>
+            <p>Transition into a lead role, taking ownership of architecture, mentoring junior engineers and bridging technical work with business outcomes. My background in sales and stakeholder management gives me an edge here that pure engineers rarely have.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <h3 class="blk-title">Skills in Progress</h3>
+      <div class="skg">
+        <div class="ski"><div class="ski-top"><i data-lucide="smartphone"></i><span>Flutter / Mobile Dev</span><b>70%</b></div><div class="ski-track"><div class="ski-fill" style="--w:70%"></div></div></div>
+        <div class="ski"><div class="ski-top"><i data-lucide="server"></i><span>Node.js / Backend</span><b>65%</b></div><div class="ski-track"><div class="ski-fill" style="--w:65%"></div></div></div>
+        <div class="ski"><div class="ski-top"><i data-lucide="cloud"></i><span>Cloud — Azure / AWS</span><b>50%</b></div><div class="ski-track"><div class="ski-fill" style="--w:50%"></div></div></div>
+        <div class="ski"><div class="ski-top"><i data-lucide="bar-chart-2"></i><span>Data Analytics / Power BI</span><b>45%</b></div><div class="ski-track"><div class="ski-fill" style="--w:45%"></div></div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       04 CURRICULUM VITAE
+  ════════════════════════════════ -->
+  <section id="cv" class="sec sec-alt">
+    <div class="sec-wrap">
+
+      <header class="sec-hd">
+        <span class="sec-num">04</span>
+        <h2 class="sec-title">Curriculum Vitae</h2>
+        <div class="sec-rule"></div>
+      </header>
+
+      <div class="cv-layout">
+
+        <!-- Sidebar -->
+        <aside class="cv-side">
+          <!-- PHOTO: replace div below with: -->
+          <img src="assets/photo.jpeg" alt="Thilakshana" class="cvs-photo"/>    
+          <h3 class="cvs-name">Thilakshana<br>Bandaranayake</h3>
+          <p class="cvs-role">Final Year IT Student</p>
+
+          <div class="cvs-sect">
+            <h5><i data-lucide="send-horizontal"></i> Contact</h5>
+            <p><i data-lucide="at-sign"></i>thilakshanabandaranayake@gmail.com</p>
+            <p><i data-lucide="map-pin"></i>Kurunagala, Sri Lanka</p>
+            <p><i data-lucide="link"></i>in/thilakshana-bandaranayaka</p>
+          </div>
+
+          <div class="cvs-sect">
+            <h5><i data-lucide="code-2"></i> Tech Stack</h5>
+            <div class="cvs-tags">
+              <span>Flutter</span><span>React.js</span><span>Bootstrap</span>
+              <span>Java</span><span>Node.js</span><span>PHP</span>
+              <span>Spring Boot</span><span>MySQL</span><span>MongoDB</span>
+              <span>Power BI</span><span>Azure</span><span>Figma</span>
+            </div>
+          </div>
+
+          <div class="cvs-sect">
+            <h5><i data-lucide="users-round"></i> Soft Skills</h5>
+            <div class="cvs-tags soft">
+              <span>Leadership</span><span>Communication</span>
+              <span>Risk-Taking</span><span>Team Working</span>
+              <span>Time Management</span><span>Organised</span>
+            </div>
+          </div>
+
+          <div class="cvs-sect">
+            <h5><i data-lucide="globe-2"></i> Languages</h5>
+            <p><i data-lucide="minus"></i> Sinhala - Full Professional</p>
+            <p><i data-lucide="minus"></i> English - Professional Working</p>
+          </div>
+        </aside>
+
+        <!-- Main -->
+        <div class="cv-body">
+          <div class="cv-blurb">
+            <p>Technical professional with strong analytical and problem-solving skills, seeking to leverage programming expertise and data-driven insights to develop innovative software solutions and drive digital transformation initiatives.</p>
+          </div>
+
+          <div class="cv-sec">
+            <h4 class="cv-h"><i data-lucide="graduation-cap"></i>Education</h4>
+            <div class="cve">
+              <div class="cve-hd"><span>BSc (Hons) Information Technology - Specializing in IT</span><span class="cve-dt">2022 – Present</span></div>
+              <span class="cve-place">SLIIT, Malabe, Sri Lanka · GPA: 3.09 · Final Year</span>
+            </div>
+            <div class="cve">
+              <div class="cve-hd"><span>G.C.E Advanced Level - Combined Maths / Physics / ICT</span><span class="cve-dt">2019–2020</span></div>
+              <span class="cve-place">Sri Sumangala National College, Wariyapola · 3 C's</span>
+            </div>
+          </div>
+
+          <div class="cv-sec">
+            <h4 class="cv-h"><i data-lucide="briefcase"></i>Experience</h4>
+            <div class="cve">
+              <div class="cve-hd"><span>Trainee Software Engineer</span><span class="cve-dt">Oct 2024 – Apr 2025</span></div>
+              <span class="cve-place">CEAT Kelani Holdings (Pvt) Ltd · Kelaniya, Sri Lanka</span>
+              <ul class="cve-ul">
+                <li>Built full-stack mobile applications using Flutter, Node.js and MySQL. Deployed on Azure.</li>
+                <li>Designed interfaces and interactive prototypes in Figma to enhance user experience.</li>
+                <li>Delivered system transitions and stakeholder presentations with clear technical documentation.</li>
+                <li>Led cybersecurity training programmes, strengthening organisational security culture across teams.</li>
+              </ul>
+            </div>
+            <div class="cve">
+              <div class="cve-hd"><span>Senior Sales Promotion Officer</span><span class="cve-dt">Jun 2022 - Nov 2023</span></div>
+              <span class="cve-place">Herbline Sri Lanka (Pvt) Ltd · Kurunegala</span>
+              <ul class="cve-ul">
+                <li>Developed and executed promotional strategies driving herbal product sales through targeted market research.</li>
+                <li>Coordinated trade shows and trained junior sales staff to enhance team performance.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="cv-sec">
+            <h4 class="cv-h"><i data-lucide="rocket"></i>Projects</h4>
+            <div class="cve">
+              <div class="cve-hd"><span>Dealer App · CEAT Kelani Holdings</span><span class="cve-dt">Oct 2024 – Apr 2025</span></div>
+              <ul class="cve-ul">
+                <li>Built dealer mobile app using Flutter/Node.js/MySQL with RESTful APIs for CEAT's network management.</li>
+                <li>Delivered real-time financial tracking, performance analytics and commission monitoring.</li>
+              </ul>
+            </div>
+            <div class="cve">
+              <div class="cve-hd"><span>Vendor Management Portal · CEAT Kelani Holdings</span><span class="cve-dt">Feb 2024 – Jan 2025</span></div>
+              <ul class="cve-ul">
+                <li>Transitioned vendor management from prototype to production, including multi-tier admin panels, order management, vendor evaluation.</li>
+              </ul>
+            </div>
+            <div class="cve">
+              <div class="cve-hd"><span>AutoShed - Smart Scheduling System · SLIIT</span><span class="cve-dt">Feb – May 2025</span></div>
+              <ul class="cve-ul"><li>Year 3 Semester 2 project - intelligent presentation scheduling with conflict resolution logic.</li></ul>
+            </div>
+            <div class="cve">
+              <div class="cve-hd"><span>Skill Sharing &amp; Learning Platform · SLIIT</span><span class="cve-dt">Feb – May 2025</span></div>
+              <ul class="cve-ul"><li>Year 3 Semester 2 project - collaborative social learning platform.</li></ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       05 CERTIFICATE
+  ════════════════════════════════ -->
+  <section id="cert" class="sec">
+    <div class="sec-wrap">
+
+      <header class="sec-hd">
+        <span class="sec-num">05</span>
+        <h2 class="sec-title">Certificates of Achievement</h2>
+        <div class="sec-rule"></div>
+      </header>
+
+      <!-- <p class="sec-lead">Evidence of courses completed within the last year to improve professional and technical skills.</p> -->
+
+      <div class="cert-duo">
+
+        <!-- CERT 1 -->
+        <div class="cert-panel">
+          <div class="cp-top">
+            <span class="cp-badge"><i data-lucide="award"></i> Certificate of Completion</span>
+            <span class="cp-num">01</span>
+          </div>
+          <h3 class="cp-name">Auto-Healing and Scaling Applications</h3>
+          <p class="cp-platform"><i data-lucide="building-2"></i>Platform - AWS Skill Builder</p>
+          <!-- <p class="cp-desc">[ Brief description of what this course covered and how it improved your skills. ]</p> -->
+          <div class="cp-meta">
+            <span><i data-lucide="calendar-days"></i> Completed: September, 2025</span>
+            <span><i data-lucide="clock"></i> Duration: 2 hours</span>
+          </div>
+          <!-- Replace the div below with: -->
+            <img src="assets/aws.png" alt="Certificate 1" class="cp-img"/> 
+        </div>
+
+        <!-- CERT 2 -->
+        <div class="cert-panel">
+          <div class="cp-top">
+            <span class="cp-badge"><i data-lucide="award"></i> Certificate of Completion</span>
+            <span class="cp-num">02</span>
+          </div>
+          <h3 class="cp-name">Configure virtual machine availability</h3>
+          <p class="cp-platform"><i data-lucide="building-2"></i>Platform - Azure Student</p>
+          <!-- <p class="cp-desc">[ Brief description of what this course covered and how it improved your skills. ]</p> -->
+          <div class="cp-meta">
+            <span><i data-lucide="calendar-days"></i> Completed: August, 2025</span>
+            <span><i data-lucide="clock"></i> Duration: 2 hours</span>
+          </div>
+          <!-- Replace the div below with: -->
+               <img src="assets/azure.png" alt="Certificate 2" class="cp-img"/>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-in">
+      <span class="ft-name">Thilakshana Bandaranayake</span>
+      <span class="ft-info"> SLIIT · 2025 / 2026</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
